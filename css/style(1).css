@@ -51,7 +51,7 @@
 }
 
 .navbar-primary {
-    background: #00838f;
+    background: #e8b447;
 }
 
 .navbar-bottom {
@@ -69,7 +69,7 @@
 }
 
 .navbar-logo img {
-    height: 30px;
+    height: 70px;
     width: auto;
 }
 
@@ -1868,7 +1868,7 @@ a.top-destination-image-bg {
 .absolute-in-content {
     position: absolute;
     right: 15px;
-    top: 80%;
+    top: 70%;
     /*width: 60px;*/
     line-height: 1;
     text-align: right;
@@ -3945,7 +3945,7 @@ section.footer__bottom {
     padding-left: 55px;
 }
 .footer-logo img {
-    width: 40%;
+    width: 90%;
 }
 .our-cities span {
     color: #e8b447;
@@ -3957,4 +3957,85 @@ section.footer__bottom {
 }
 .reserved_text {
     color: #fff;
+}
+
+
+
+
+
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+.inner_txt{
+    background: #fff;
+    padding: 10px;
+    height: 150px;
+    border-radius: 5px;
+}
+.inner_txt p{
+    margin-bottom: 0px;
+    height: 60px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.inner_txt .left_box{
+    float: left;
+}
+.inner_txt .right_box{
+    text-align: right;
+}
+.left_box i.fa.fa-star {
+    color: #e8b447;
+}
+.left_box i.fa.fa-star-half {
+    color: #e8b447;
+}
+.text-center i.fa.fa-star.fa-lg {
+    color: #e8b447;
+}
+.tp_section img{
+    width: 35%;
+    display: inline-block;
+}
+div#card_box {
+    padding: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.43);
+}
+
+.card-img-top{
+    width: 100%;
+    margin-top: 1em;
+    background: url(https://s3.eu-west-2.amazonaws.com/sc30/uploads/2013/03/Rolex-Racing.jpg) center center / cover no-repeat;
+    display: list-item;
+    height: 250px;
+    list-style: none;
 }
