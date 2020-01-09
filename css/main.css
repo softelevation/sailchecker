@@ -1,11 +1,4 @@
-/*------------------------------------------------------------------
-* Project:        Tour Packer
-* Author:         Crenoveative
-* URL:            http://crenoveative.com
-* Version:        1.0.0
-* Created:        06/03/2016
-* Last change:    06/03/2016
--------------------------------------------------------------------*/
+
 
 
 /*------------------------------------------------------------------
@@ -1427,6 +1420,7 @@ section,
 
 .main-wrapper {
     background: #FFF;
+    margin-top: -27px;
 }
 
 .container {
