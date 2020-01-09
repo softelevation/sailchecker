@@ -1,14 +1,4 @@
 /*------------------------------------------------------------------
-* Project:        Tour Packer
-* Author:         Crenoveative
-* URL:            http://crenoveative.com
-* Version:        1.0.0
-* Created:        06/03/2016
-* Last change:    06/03/2016
--------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
 * Table of Content
 * 1. Header
 * 2. Navbar Mini
@@ -278,7 +268,7 @@
         margin: 0;
     }
     .navbar-logo img {
-        height: 20px;
+        /*height: 20px;*/
         margin: 0;
     }
     .navbar-arrow > ul > li .arrow-indicator,
@@ -297,7 +287,7 @@
         clear: both;
     }
     .navbar-logo img {
-        height: 18px;
+        /*height: 18px;*/
     }
     .navbar-logo {
         margin-top: 5px;
@@ -908,6 +898,7 @@ ul.availabily-list li.availabily-content.sold-out > div.date-from:after {
 .main-search-wrapper .form-control {
     height: 40px;
     border-color: #FFF;
+    /*width: 80%;*/
 }
 
 .main-search-wrapper .btn {
@@ -955,17 +946,13 @@ ul.availabily-list li.availabily-content.sold-out > div.date-from:after {
 }
 
 .main-search-wrapper.full-width {
-    /*width: 80%;
-    margin: 15px auto 0;*/
-
-    width: 100%;
+    width: 97%;
     margin: 15px auto 0;
     background: rgba(232, 180, 71, 0.8);
     height: 85px;
     border-radius: 8px;
     padding: 20px;
 }
-
 .main-search-wrapper.full-width > .inner {
     margin-left: -10px;
     margin-right: -10px;
@@ -1051,7 +1038,7 @@ ul.availabily-list li.availabily-content.sold-out > div.date-from:after {
         margin: 0 auto;
     }
     .main-search-wrapper.full-width {
-        width: 90%;
+        width: 100%;
         margin-top: 5px;
     }
     .main-search-wrapper.full-width .column-item {
@@ -1093,8 +1080,8 @@ ul.availabily-list li.availabily-content.sold-out > div.date-from:after {
 .sidebar {}
 
 .sidebar-inner {
-    border: 4px solid #EEE;
-    padding: 30px 20px 0;
+    border: 2px solid #e8b447;
+    padding: 15px 20px 0;
     border-radius: 3px;
 }
 
@@ -1113,7 +1100,7 @@ ul.availabily-list li.availabily-content.sold-out > div.date-from:after {
 }
 
 .sidebar-module {
-    padding: 0 0 30px;
+    padding: 0 0 15px;
 }
 
 .sidebar-box {
@@ -1123,6 +1110,7 @@ ul.availabily-list li.availabily-content.sold-out > div.date-from:after {
 .sidebar-title {
     color: #333;
     margin-top: 0;
+        border-bottom: 1px solid #00838f;
 }
 
 .sidebar-title.text-primary {
@@ -1360,7 +1348,8 @@ ul.sidebar-post li .recent-post-sm-meta {
 
 .sort-by-wrapper {
     line-height: 1.2;
-    display: table;
+    /*display: table;*/
+     border-top: 3px solid #00838f;
 }
 
 .sorting-label {
@@ -1382,21 +1371,36 @@ ul.sidebar-post li .recent-post-sm-meta {
 }
 
 ul.sort-by {
-    margin: 0;
+    /*margin: 0;*/
+    margin-left: -7px;
     padding: 0;
     clear: both;
     line-height: 1.2;
+   
 }
-
+.sorting-header h4{ 
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
 ul.sort-by li {
     display: inline-block;
-    margin: 5px 10px;
+    margin: 0px 0px;
+    padding: 10px 10px 10px 10px;
+    /*border: 1px solid #00838f;*/
 }
-
+ul.sort-by li:hover {
+    background: #e8b447;
+    border-radius: 0px 0px 5px 5px;
+}
+li.active.up {
+    background: #e8b447;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0px 0px 5px 5px;
+}
 ul.sort-by li a {
-    display: block;
     position: relative;
     color: #666;
+    padding: 15px;
 }
 
 ul.sort-by li a:after {
@@ -1405,7 +1409,7 @@ ul.sort-by li a:after {
     bottom: -5px;
     left: 0;
     right: 0;
-    height: 2px;
+    /*height: 2px;*/
     background: transparent;
 }
 
@@ -1861,7 +1865,11 @@ a.top-destination-image-bg {
 }
 #yacht_section .package-grid-item a h5,
 .package-grid-item a h6 {
-    font-size: 13px;    
+    font-size: 17px;
+    line-height: 2;    
+}
+#top_destination h5 {
+    font-size: 15px;
 }
 .package-grid-item .content {
     padding: 15px;
@@ -1950,12 +1958,15 @@ a.top-destination-image-bg {
 .package-list-item .image {
     width: 35%;
     float: left;
+    padding: 10px;
     position: relative;
 }
 
 .package-list-item .image img {
     border-radius: 3px 0 0 3px;
+    height: 17rem;
 }
+
 
 .package-list-item .absolute-in-image .duration {
     padding: 15px;
@@ -1980,9 +1991,10 @@ a.top-destination-image-bg {
 
 .package-list-item .content h5 {
     color: #333;
-    margin: 18px 0 10px;
+    margin: 10px 0 5px;
     line-height: 1;
 }
+
 
 .package-list-item .content h5 .btn {
     background: none;
@@ -1999,7 +2011,8 @@ a.top-destination-image-bg {
     color: #00838f;
     font-size: 16px;
     font-weight: 700;
-    margin: 15px 0 25px;
+    text-align: right;
+    /*margin: 10px 0 10px;*/
 }
 
 .package-list-item .btn-absolute {
@@ -2010,16 +2023,23 @@ a.top-destination-image-bg {
 
 ul.list-info {
     margin: 0;
+    float: left;
 }
 
 ul.list-info li {
-    line-height: 1;
+    line-height: 1.6;
     position: relative;
-    padding-left: 27px;
+    /*padding-left: 27px;*/
 }
 
+ul.list-details {
+    float: left;
+    margin-left: 20px;
+    /* margin-top: 3px; */
+    line-height: 1.6;
+}
 ul.list-info li:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 ul.list-info li .icon {
@@ -3819,14 +3839,7 @@ ul.static-page-menu li.active a {
 @media (max-width: 479px) {}
 
 
-.section-image img {
-    border-radius: 8px;
-    border: 1px solid #ccc;
-}
-.section-image:hover {
-    border-radius: 8px;
-    box-shadow: 0.1rem 0.4rem 0.6rem 0.3rem #ebebeb;
-}
+
 .absolute-in-content small{
     font-size: 11px;
     color: #00838f;
@@ -3902,7 +3915,7 @@ section.footer__bottom {
     border-top: solid 1px rgba(255,255,255,.3);
 }
 #menu_section{ 
-    margin-left: -85px;
+    /*margin-left: -85px;*/
 }
 .our-cities {
     text-align: center;
@@ -3925,7 +3938,7 @@ section.footer__bottom {
 }
 
 .footer-menu li img {
-    width: 30%;
+    width: 25%;
     height: 35px;
     display: inline-block;
     float: left;
@@ -4002,7 +4015,7 @@ section.footer__bottom {
 .owl-nav .owl-next {
   right: -30px;
 }
-.inner_txt{
+#review_section .inner_txt{
     background: #fff;
     padding: 10px;
     height: 150px;
@@ -4029,21 +4042,189 @@ section.footer__bottom {
     color: #e8b447;
 }
 .tp_section img{
-    width: 35%;
+    width: 194px;
     display: inline-block;
 }
-div#card_box {
-    padding: 10px;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.43);
-}
+
 
 .card-img-top{
     width: 100%;
     margin-top: 1em;
-    background: url(https://s3.eu-west-2.amazonaws.com/sc30/uploads/2013/03/Rolex-Racing.jpg) center center / cover no-repeat;
+    background: url("https://sndsailchecker.wpengine.com/wp-content/themes/jupiter-child/custom_assets/images/rolex_racing.jpg") center center / cover no-repeat;
     display: list-item;
     height: 250px;
     list-style: none;
 }
+#review_section a {
+    color: #666;
+    font-weight: normal;
+}
+section#challenges_section {
+    /*padding: 70px;*/
+    background: #f9f9f9;
+}
+section#challenges_section div#card_box {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.43);
+}
+
+section#review_section {
+    background: #f9f9f9;
+    padding: 70px;
+}
+
+section#companies_section {
+    background: #f9f9f9;
+    padding: 70px;
+}
+section#companies_section .section-image img {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+section#companies_section .owl-dots {
+    display: none;
+}
+.float {
+    /*position: fixed;*/
+    /*width: 11%;*/
+    height: 45px;
+    bottom: 10px;
+    /*right: 15px;*/
+    background-color: #e8b447;
+    color: #FFF;
+    border-radius: 30px;
+    text-align: center;
+    z-index: 1;
+    border: none;
+    box-shadow: 0px 0px 3px #999;
+}
+
+.my-float{
+    margin-top:15px;
+}
 
 
+
+
+.btn_map {
+    padding-top: 10px;
+}
+.btn_map a {
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    color: #00838f !important;
+}
+#first_row .absolute-in-image {
+    position: relative;
+}
+#first_row .duration {
+    padding: 0;
+}
+#first_row p {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+.line18 a {
+    font-size: 11px;
+}
+#first_row span {
+    font-weight: 600;
+}
+
+.icon_row {
+    display: table-cell;
+    vertical-align: middle;
+}
+ul.boat-usp {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.boat-usp li {
+    color: #00838f;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    position: relative;
+    padding: 0;
+    margin: 0 .5rem 1rem 0;
+    display: inline-block;
+    width: 19%;
+    vertical-align: top;
+}
+.boat-usp li .usp-item {
+    text-align: center;
+}
+span.usp-label {
+    display: block;
+    height: 4rem;
+    font-size: 0.6rem;
+    font-weight: normal;
+    margin: .2rem 0 0;
+}
+.btn_map a:hover {
+    background: none;
+}
+#btn_down a {
+    background: #e8b447;
+    color: #fff !important;
+    border: 1px solid #e8b447;
+}
+#btn_down a:hover {
+    border: 1px solid #e8b447;
+}
+.blist-price {
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+.blist-price .price {
+    font-size: 2rem;
+    color: #218341;
+    white-space: nowrap;
+}
+#package .package-list-item:hover {
+    background: #99999914;
+    cursor: pointer;
+}
+#package .package-list-item{
+box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+#duration span {
+    padding: 10px 15px;
+    background: #e8b447;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sidebar-inner .sidebar-module-inner label {
+    padding: 5px 0 0px 20px;
+}
+#yt label {
+    padding: 0;
+}
+
+
+#cabins .checkbox-block {
+    display: block;
+    float: left;
+    width: 48%;
+    margin-right: 3%;
+}
+#cabins .sidebar-inner .sidebar-module-inner label {
+    padding: 5px 0 0px 20px;
+    line-height: 2;
+}
+.sidebar input.form-control {
+    font-size: 11px;
+}
+#first_row .btn_map a:focus{
+    background: none !important;
+}
