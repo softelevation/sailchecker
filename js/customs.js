@@ -1,5 +1,5 @@
 
-jQuery(function($) {
+$(function($) {
 
 	"use strict";
 
@@ -440,4 +440,4 @@ jQuery(function($) {
 
 		});
 
-})(jQuery);
+});

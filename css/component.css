@@ -370,8 +370,8 @@
 }
 
 .progress-primary .progress-bar {
-    background: #F56961;
-    border-color: #F56961;
+    background: #e8b447;
+    border-color: #e8b447;
 }
 
 .carousel-control.right,
@@ -524,8 +524,8 @@
 
 .scrollspy-sidebar .nav > li > a:hover {
     background: none;
-    color: #F56961;
-    border-color: #F56961;
+    color: #e8b447;
+    border-color: #e8b447;
 }
 
 .scrollspy-sidebar .nav > li > a:focus {
@@ -538,9 +538,9 @@
 .scrollspy-sidebar .nav > .active:hover > a,
 .scrollspy-sidebar .nav > .active:focus > a {
     font-weight: 600;
-    color: #F56961 !important;
+    color: #e8b447 !important;
     background: none;
-    border-color: #F56961 !important;
+    border-color: #e8b447 !important;
 }
 
 .scrollspy-sidebar .nav .nav {
@@ -1027,9 +1027,9 @@ input[type='checkbox']:checked + label:before {
 }
 
 #back-to-top a:hover {
-    background-color: #D65049;
+    background-color: #e8b447;
     color: #FFF;
-    border-color: #D65049;
+    border-color: #e8b447;
 }
 
 
@@ -1248,14 +1248,14 @@ input[type='checkbox']:checked + label:before {
 .irs-bar {
     height: 6px;
     top: 25px;
-    background: #F56961;
+    background: #e8b447;
 }
 
 .irs-bar-edge {
     top: 25px;
     height: 6px;
     width: 14px;
-    background: #F56961;
+    background: #e8b447;
     border-radius: 3px;
 }
 
@@ -1276,7 +1276,7 @@ input[type='checkbox']:checked + label:before {
     border-radius: 50%;
     top: 20px;
     background: #FFF;
-    border: 2px solid #F56961;
+    border: 2px solid #e8b447;
     -webkit-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1313,7 +1313,7 @@ input[type='checkbox']:checked + label:before {
 .irs-from,
 .irs-to,
 .irs-single {
-    color: #F56961;
+    color: #e8b447;
     font-size: 10px;
     line-height: 1.333;
     text-shadow: none;

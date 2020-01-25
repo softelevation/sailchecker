@@ -646,7 +646,7 @@ ol.breadcrumb-list.booking-step li:not(:last-child) span:after {
 }
 
 .page-title.detail-page-title {
-    padding: 220px 0 30px;
+    padding: 100px 0 30px;
     text-align: left;
 }
 
@@ -814,11 +814,22 @@ ul.availabily-list li.availabily-content.sold-out > div.date-from:after {
 }
 
 .detail-content {
-    border-bottom: 1px solid #E3E3E3;
+    /*border-bottom: 1px solid #E3E3E3;*/
     padding-bottom: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    /*padding: 15px;*/
 }
-
+div#good {
+    padding: 15px;
+}
+#section-left p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+#section-left small {
+    font-weight: 600;
+}
 .detail-content .map-route {
     width: 50%;
     float: right;
@@ -1141,7 +1152,7 @@ ul.availabily-list li.availabily-content.sold-out > div.date-from:after {
 
 .sidebar-search-header h4 {
     text-transform: uppercase;
-    margin: 0 0 12px;
+    margin: 0 0 12px; color: #fff;
 }
 
 .btn-more-less {
@@ -4227,4 +4238,236 @@ box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 #first_row .btn_map a:focus{
     background: none !important;
+}
+
+.section-title .text-left{width:50%; float: left;}
+#section-left h4{margin-bottom: -30px;}
+.text-right span {
+    background: #e8b447;
+    padding: 5px;
+    color: #fff;
+    border-radius: 3px;
+}
+.section-title h4#undr {
+    display: inline-block;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    width: 100%;
+    text-transform: capitalize;
+}
+li.beds-item {
+    display: inline-block;
+    padding: 0px 25px 0px 0px;
+    text-align: center;
+}
+.beds-item p {
+    margin-bottom: -7px;
+    font-weight: 600;
+}
+.beds-item small {
+    font-weight: 800;
+}
+.text-left .checkbox-block label{padding-left: 20px;}
+#service .optional {
+    color: green;     font-size: 10px;
+}
+#service .mandatory {
+    color: red;    font-size: 10px;
+}
+#service .row {
+    padding: 10px;
+    /*background: #fafafa;*/
+    margin-bottom: 1px;
+}
+ul.boat-info__list li {
+    width: 50%;
+    float: left;
+    display: block;
+    font-size: 12px;
+    line-height: 2.5;
+}
+#amenities p {
+    font-size: 15px;
+}
+#amenities .row {
+    padding: 10px;
+}
+#good .row {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #ccc;font-size: 14px;
+}
+#section-4 .intro-item-body {
+    background: #fafafa;
+    padding: 10px;
+    margin-top: -30px;
+    border-top: 2px solid #ccc;
+}
+div#section-4 {
+    padding: 0px !important;
+}
+#good .row:last-child {
+    border-bottom: none;
+}
+#section-8 .package-grid-item .content {
+    padding: 5px;
+}
+
+
+
+.boat-highlights {
+    background: #edf5fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h5.boat-highlights-text {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+h5.boat-highlights-verified {
+    margin-top: 15px;
+    color: green;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.calendar-section.row {
+    border-radius: .5rem;
+    color: #ffffff;
+    padding: 15px;
+}
+.title-column {
+    padding: 15px;
+    border: 1px solid #e8b447; 
+    background: #e8b447;
+}
+.pickup-date {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+.change-date-wrapper {
+    float: right;
+}
+.picked-date a {
+    color: #fff;
+}
+a.change-date {
+    color: #fff;
+}
+.calendar-section .grey-border {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    height: 4rem;
+    width: 1px;
+    background-color: #848484;
+    margin: 0 2rem 0 0;
+}
+ .calendar-section .pickup-date li:first-of-type {
+    color: #00838f;
+    display: inline;
+    margin: 0;
+}
+.pickup-date li {
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0 2rem 0 0;
+    position: relative;
+}
+
+.boat-form-price-table table {
+    width: 100%;
+    border: 0.1rem solid #26a1ff;
+    border-radius: 0.5rem;
+    border-collapse: separate;
+    font-size: 1.3rem;
+}
+#payBoxTable .boat-form-price-table {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 1rem 0 0 0;
+}
+#payBoxTable .boat-form-price-table table {
+    width: 100%;
+    border: 0.1rem solid #26a1ff;
+    border-radius: 0.5rem;
+    border-collapse: separate;
+    font-size: 1.3rem;
+}
+ .boat-form-price-table table tr {
+    height: auto;
+    padding: 1rem 0;
+    vertical-align: top;
+}
+.boat-form-price-table table tr .boat-info-column {
+    width: 33%;
+    border-right: 0.1rem solid #26a1ff;     font-size: 14px;
+}
+ .boat-form-price-table table tr .title-column {
+    background-color: #c9c9c9;
+    color: #0c0237;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.boat-form-price-table table tr .include-column {
+    width: 20%;
+    border-left: 0.1rem solid #26a1ff;
+    border-right: 0.1rem solid #26a1ff;
+}
+#payBoxTable strong {
+    font-weight: 700 !important;
+}
+.table-bordered li {
+    padding: 5px;
+    font-size: 13px;
+}
+.table-bordered i.fa {
+    padding-right: 5px;
+}
+.from_top {
+    margin-top: 50px;
+}
+.fr a {
+    margin-top: 10px;
+}
+.from_top p {
+    margin-bottom: 0px;
+}
+.table-bordered>tbody>tr>td, 
+.table-bordered>tbody>tr>th, 
+.table-bordered>tfoot>tr>td, 
+.table-bordered>tfoot>tr>th, 
+.table-bordered>thead>tr>td, 
+.table-bordered>thead>tr>th{
+    border: 1px solid #00838f;
+}
+.table-bordered>thead {
+    border-top: 1px solid #00838f;
+}
+.table-bordered>thead>tr>th {
+    color: #fff;
+}
+.table-bordered b {
+    font-size: 20px;
+    color: #00838f;
+}
+.inner_txtt {
+    border: 1px solid;
+}
+.inner_txtt:hover{background: #fafafa;}
+.brtmm {
+    text-align: center;
+}
+.brtmm h6{font-size: 10px;}
+.reserved_item{background: #e8b447;}
+#section-1 .intro-item-body p {
+    font-size: 15px;
+}
+div#section-9 {
+    border-bottom: 2px solid #ccc;
 }
