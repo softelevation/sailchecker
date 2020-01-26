@@ -4121,7 +4121,10 @@ section#companies_section .owl-dots {
 
 
 .btn_map {
-    padding-top: 10px;
+    /*padding-top: 10px;*/
+}
+#first_row .btn_map h5 {
+    color: #00838f;
 }
 .btn_map a {
     width: 100%;
@@ -4139,7 +4142,7 @@ section#companies_section .owl-dots {
 }
 #first_row p {
     margin-bottom: 5px !important;
-    margin-top: 5px !important;
+    /*margin-top: 5px !important;*/
 }
 .line18 a {
     font-size: 11px;
@@ -4553,12 +4556,13 @@ div#section-9 {
 
 /* Create a custom checkbox */
 .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    border: 2px solid #e8b447;
+    width: 20px;
+    border-radius: 5px;
 }
 /* On mouse-over, add a grey background color */
 .container1:hover input ~ .checkmark {
